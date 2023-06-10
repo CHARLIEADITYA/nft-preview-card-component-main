@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.image {
+    border-radius: 5px;
+    min-height: 303px;
+    background: url("./images/image-equilibrium.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    position:relative;
+
+}
+
+.image:hover::after {
+    transition: opacity .3s ease-in-out;
+    opacity: 0.7
+}
+
+.image:after {
+    position: absolute;
+    content: "";
+    background: url("./images/icon-view.svg") no-repeat rgba(0, 255, 247, .45);
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    cursor: pointer;
+    opacity: 0
+}
+
+
+.content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.avtar img {
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+.avtar {
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.content h1 {
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 1.2rem;
+
+    &:hover {
+        color: hsl(178, 100%, 50%);
+    }
+
+}
+
+.content p {
+
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+span {
+    color: white;
+
+    &:hover {
+        color: hsl(178, 100%, 50%);
+    }
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.itemstwo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 1rem;
+}
+
+hr {
+    margin-top: 20px;
+}
