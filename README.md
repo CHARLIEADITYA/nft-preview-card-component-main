@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Get solution](https://your-solution-url.com)
-- Live Site URL: [View](https://your-live-site-url.com)
+- Solution URL: [Get solution](https://github.com/CHARLIEADITYA/nft-preview-card-component-main.git)
+- Live Site URL: [View](https://charlieaditya.github.io/nft-preview-card-component-main/)
 
 ## My process
 
